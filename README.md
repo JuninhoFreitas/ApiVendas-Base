@@ -72,11 +72,10 @@ _Endpoint_
 
 Método: *GET*
 
-Body:
+Header:
 ```json
 {
-  "startDate": "2015-12-30",
-  "endDate": "2016-12-30"
+  "token": "xxx",
 }
 ```
 Retorno esperado:
